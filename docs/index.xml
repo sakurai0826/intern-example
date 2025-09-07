@@ -1,0 +1,529 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site – Markdown によるドキュメント管理の紹介</title>
+    <link>https://kazuo278.github.io/intern-example/docs/</link>
+    <description>Recent content in Markdown によるドキュメント管理の紹介 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 08 Jul 2022 05:01:41 +0000</lastBuildDate>
+    
+	  <atom:link href="https://kazuo278.github.io/intern-example/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: What Is Markdown</title>
+      <link>https://kazuo278.github.io/intern-example/docs/what_is_markdown/</link>
+      <pubDate>Fri, 08 Jul 2022 05:01:41 +0000</pubDate>
+      
+      <guid>https://kazuo278.github.io/intern-example/docs/what_is_markdown/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;markdownとは&#34;&gt;Markdownとは？&lt;/h2&gt;
+&lt;p&gt;Markdownは、プレーンテキストテキストドキュメントに書式設定要素を追加するために使用できる軽量マークアップ言語です。  現在、世界で最も人気のあるマークアップ言語の1つです。&lt;/p&gt;
+&lt;h2 id=&#34;なぜmarkdownを使うのか&#34;&gt;なぜMarkdownを使うのか？&lt;/h2&gt;
+&lt;p&gt;人々がMarkdownを使用する理由はいくつかあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;マークダウンはすべてに使用できます。人々はそれを使用して、Webサイト、ドキュメント、メモ、書籍、プレゼンテーション、電子メールメッセージ、および技術ドキュメントを作成します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Markdownはポータブルです。マークダウン形式のテキストを含むファイルは、事実上すべてのアプリケーションを使用して開くことができます。現在使用しているMarkdownアプリケーションが気に入らない場合は、Markdownファイルを別のMarkdownアプリケーションにインポートできます。これは、コンテンツを独自のファイル形式にロックするMicrosoftWordのようなワードプロセッシングアプリケーションとはまったく対照的です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Markdownはプラットフォームに依存しません。任意のオペレーティングシステムを実行している任意のデバイスで、マークダウン形式のテキストを作成できます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;値下げは将来の保証です。使用しているアプリケーションが将来的に機能しなくなった場合でも、テキスト編集アプリケーションを使用して、マークダウン形式のテキストを読み取ることができます。これは、本、大学の論文、および無期限に保存する必要があるその他のマイルストーンドキュメントに関して重要な考慮事項です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;値下げはいたるところにあります。RedditやGitHubなどのWebサイトはMarkdownをサポートしており、多くのデスクトップおよびWebベースのアプリケーションがMarkdownをサポートしています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;内容に不備がある場合は&lt;a href=&#34;../../feedback.html&#34;&gt;こちら&lt;/a&gt;まで&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Document for Git</title>
+      <link>https://kazuo278.github.io/intern-example/docs/document-for-git/</link>
+      <pubDate>Fri, 02 Sep 2022 05:42:11 +0000</pubDate>
+      
+      <guid>https://kazuo278.github.io/intern-example/docs/document-for-git/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;gitによるdocumentの管理のすゝめ&#34;&gt;GitによるDocumentの管理のすゝめ&lt;/h1&gt;
+&lt;h2 id=&#34;従来のドキュメント管理の方法&#34;&gt;従来のドキュメント管理の方法&lt;/h2&gt;
+&lt;h3 id=&#34;こんなドキュメント管理してませんか&#34;&gt;こんなドキュメント管理してませんか？&lt;/h3&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://kazuo278.github.io/intern-example/images/folder.drawio.svg&#34;
+         alt=&#34;従来のドキュメント管理&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;日付ごとのフォルダで管理&lt;/li&gt;
+&lt;li&gt;同じ資料を色々な場所に配置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;このような管理では&#34;&gt;このような管理では…&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;(最新の)資料がどこにあるか探しにくい！&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;前回との差分が何か分かりにくい！&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;そこで、Gitによるドキュメント管理はいかがでしょうか。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;gitによるドキュメント管理とは&#34;&gt;Gitによるドキュメント管理とは…?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Markdown形式で記載したドキュメントをGitリポジトリで管理すること&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;gitとは&#34;&gt;Gitとは…?&lt;/h3&gt;
+&lt;p&gt;チーム開発における同時更新を防ぐために、ソースコードなどの変更履歴を記録するバージョン管理システム。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;管理対象リソースは、&lt;strong&gt;リモートリポジトリ&lt;/strong&gt;と呼ばれる場所に保管される。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;編集時&lt;/strong&gt;、開発(編集)者はリモートリポジトリの複製(ローカルリポジトリ)を作成し、&lt;strong&gt;ローカルリポジトリを更新する&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作業完了後&lt;/strong&gt;、開発(編集)者はローカルリポジトリの内容を&lt;strong&gt;リモートリポジトリに反映する&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://kazuo278.github.io/intern-example/images/git.drawio.svg&#34;
+         alt=&#34;git&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;gitでできること&#34;&gt;Gitでできること&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ファイルの変更履歴(更新日、更新者、更新箇所)管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;過去の状態に簡単に戻せる。&lt;/li&gt;
+&lt;li&gt;差分がわかりやすい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プル(マージ)リクエストによるレビュー&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://kazuo278.github.io/intern-example/images/git_tools.drawio.png&#34;
+         alt=&#34;git pr&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;従来のドキュメント管理の課題解決&#34;&gt;従来のドキュメント管理の課題解決&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;(最新の)資料がどこにあるか探しにくい！&lt;br&gt;
+→ &lt;strong&gt;ファイルが一元管理されるので、いつも同じ場所に最新の資料がある！&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;前回との差分が何か分かりにくい！&lt;br&gt;
+→ &lt;strong&gt;変更履歴が残るので更新差分が分かりやすい！&lt;/strong&gt;
+→ &lt;strong&gt;レビューの仕組みがあるので差分に対しコメントしやすい！&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Gitリモートリポジトリ&lt;/strong&gt;、&lt;strong&gt;Gitコマンド&lt;/strong&gt;、&lt;strong&gt;エディタ&lt;/strong&gt;(VSCodeがおすすめ)があれば作成可能！&lt;/p&gt;
+&lt;p&gt;リモートリポジトリは&lt;strong&gt;Markdwon&lt;/strong&gt;形式で書かれたドキュメントをHTMLに変換し描画することができるため、ドキュメントは&lt;strong&gt;Markdown記法で作成&lt;/strong&gt;する。&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://kazuo278.github.io/intern-example/images/md.drawio.png&#34;
+         alt=&#34;markdown&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;gitによるドキュメント管理方法-レビュー機能mrpr活用&#34;&gt;Gitによるドキュメント管理方法 ~レビュー機能(MR,PR)活用~&lt;/h2&gt;
+&lt;p&gt;■ ブランチ戦略例&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://kazuo278.github.io/intern-example/images/branch_strategy_github-flow.drawio.svg&#34;
+         alt=&#34;git branch strategy&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;ブランチ名&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;役割&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;master/main&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;常にレビュー済みの最新のドキュメントを管理するブランチ。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;feature&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;個別の作業を行うブランチ。コンテンツや章などの単位で作成する。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;gitによるドキュメント管理への疑念&#34;&gt;Gitによるドキュメント管理への疑念&lt;/h2&gt;
+&lt;p&gt;Gitでドキュメント管理できることは分かったけど…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;画像の作成や編集はできないんでしょう…？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;markdownでは、jpgやpng, svgといった画像形式を描画できるけど、
+画像自体は別のツールで作ってmarkdownで表示するんでしょ…めんどくさそう。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;スライドで発表する場合は向いてなくない…？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;markdownで書いても、発表時にはpowerpointで作成し直すの大変そう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;gitによるドキュメント管理への疑念-画像作成編集&#34;&gt;Gitによるドキュメント管理への疑念 ~画像作成・編集~&lt;/h2&gt;
+&lt;p&gt;VSCodeには、&lt;code&gt;Draw.io Integration&lt;/code&gt;という拡張機能が用意されており、&lt;strong&gt;VSCodeから直接の画像作成・編集可能&lt;/strong&gt;です！&lt;/p&gt;
+&lt;p&gt;また、これにより&lt;strong&gt;画像データもバージョン管理可能&lt;/strong&gt;に！
+(パワポだと画像が図として保存されている場合があったりする…)&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://kazuo278.github.io/intern-example/images/drawio.drawio.png&#34;
+         alt=&#34;drawio&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;gitによるドキュメント管理への疑念-スライド作成&#34;&gt;Gitによるドキュメント管理への疑念 ~スライド作成~&lt;/h2&gt;
+&lt;p&gt;VSCodeには、&lt;code&gt;Marp for VS Code&lt;/code&gt;という拡張機能が用意されており、Markdownで記載されたドキュメントをスライド(pdf)に変換です！&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://kazuo278.github.io/intern-example/images/marp.drawio.png&#34;
+         alt=&#34;height:295&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;ただし、Powerpointのように&lt;strong&gt;画像や文字を直観的に配置できない&lt;/strong&gt;など課題もあります。
+→&lt;strong&gt;スライドを作成することが目的な場合やリッチなスライドの作成には向いていなそう&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;h3 id=&#34;gitによるドキュメント管理&#34;&gt;Gitによるドキュメント管理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdownで作成したDocumentをGitリポジトリで管理する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;メリット&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;デメリット&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;・いつも同じ場所に最新の資料がある&lt;br&gt;・レビューがしやすい&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;・パワポやその他形式への変換はまだまだ難しい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;私が考えるgitドキュメント管理の使いどころ&#34;&gt;私が考えるGitドキュメント管理の使いどころ&lt;/h3&gt;
+&lt;p&gt;すべてのドキュメントをGit管理するのではなく、まずは &lt;strong&gt;テンプレート指定のない内部向け文書(運用手順書、システム構成)&lt;/strong&gt; からGitでのドキュメント管理を初めてみてはいかがでしょうか。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: ドキュメント更新ハンズオン</title>
+      <link>https://kazuo278.github.io/intern-example/docs/handson/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kazuo278.github.io/intern-example/docs/handson/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;ゴール&#34;&gt;ゴール&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown の基本的な記法が理解できる&lt;/li&gt;
+&lt;li&gt;VS Code Remote Continer 上の Hugo で Markdown を Web サイトコンテンツに変換できる&lt;/li&gt;
+&lt;li&gt;GitHub Action を利用する方法がわかる&lt;/li&gt;
+&lt;li&gt;【Want】 Hugo の設定を変更して、Web サイトコンテンツをカスタマイズできる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;目次&#34;&gt;目次&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;VS Code Remote Container で Hugo を動かしてみよう&lt;/li&gt;
+&lt;li&gt;Markdown でドキュメントを書いてみよう&lt;/li&gt;
+&lt;li&gt;自由練習１～　好きに Markdown を書いて、Web サイトに記事を追加してみましょう&lt;/li&gt;
+&lt;li&gt;GitHubAction で作業を自動化してみよう&lt;/li&gt;
+&lt;li&gt;自由練習２&lt;/li&gt;
+&lt;li&gt;Hugo の設定を変更して、Web サイトコンテンツをカスタマイズしてみよう&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;vs-code-remote-container-で-hugo-を動かしてみよう&#34;&gt;VS Code Remote Container で Hugo を動かしてみよう&lt;/h2&gt;
+&lt;p&gt;VS Code Remote Continer の設定がされた Git リポジトリをクローンして、さっそく Hugo がどんなものなのか体験してみましょう&lt;/p&gt;
+&lt;h3 id=&#34;a-windows端末&#34;&gt;(A) Windows端末&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;WSL2 を起動します（Windowsキーを押下→Ubuntuを入力）&lt;/li&gt;
+&lt;li&gt;Docker を起動しておきます： &lt;code&gt;sudo service docker start&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;任意の作業用のフォルダに移動します（例：ホームディレクトリでよければ &lt;code&gt;cd&lt;/code&gt; を打てばＯＫ）&lt;/li&gt;
+&lt;li&gt;演習用の GitHub リポジトリを取得します（ &lt;code&gt;git clone --recursive https://github.com/kazuo278/hugo-sample.git&lt;/code&gt; ）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd hugo-sample&lt;/code&gt; でリポジトリに移動します&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;code .&lt;/code&gt; で VS Code を起動します(初めて実行する場合はインストールが発生します)&lt;/li&gt;
+&lt;li&gt;もし、VSCode を起動した際に信頼するかの警告が出たら「はい、作成者を信頼します」を選択します&lt;/li&gt;
+&lt;li&gt;右下に「Folder containes a Dev Container configuration file&amp;hellip;」というポップアップが出たら「Reopen in Container」を選択します&lt;/li&gt;
+&lt;li&gt;開発用のコンテナが起動するまで待ちます（初回は時間がかかります）&lt;/li&gt;
+&lt;li&gt;上部メニュー＞ターミナル＞新しいターミナルを選択します&lt;/li&gt;
+&lt;li&gt;開いたターミナルで &lt;code&gt;hugo server -w&lt;/code&gt; のコマンドを実行します&lt;/li&gt;
+&lt;li&gt;ブラウザで「&lt;a href=&#34;http://localhost:1313/hugo-sample/&#34;&gt;http://localhost:1313/hugo-sample/&lt;/a&gt;」を開きます&lt;/li&gt;
+&lt;li&gt;md ファイルの１つを更新して保存したときに、すぐにブラウザ側に反映されていることを確認します&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;b-mac端末&#34;&gt;(B) Mac端末&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;VSCodeを起動します&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;shift + command + p&lt;/code&gt; を押します&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;shell command&lt;/code&gt;を入力し、「Shell Command: Install &amp;lsquo;code&amp;rsquo; command in PATH」を選択します。&lt;/li&gt;
+&lt;li&gt;Docker Desktopを起動します。&lt;/li&gt;
+&lt;li&gt;ターミナルを開き、任意の作業用のフォルダに移動します（例：ホームディレクトリでよければ &lt;code&gt;cd&lt;/code&gt; を打てばＯＫ）&lt;/li&gt;
+&lt;li&gt;演習用の GitHub リポジトリを取得します（ &lt;code&gt;git clone --recursive https://github.com/kazuo278/hugo-sample.git&lt;/code&gt; ）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd hugo-sample&lt;/code&gt; でリポジトリに移動します&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;code .&lt;/code&gt; で VS Code を起動します&lt;br&gt;
+うまくいかない場合は、VSCodeの「File -&amp;gt; Open Folder」から取得したリポジトリを選択してください。&lt;/li&gt;
+&lt;li&gt;もし、VSCode を起動した際に信頼するかの警告が出たら「はい、作成者を信頼します」を選択します&lt;/li&gt;
+&lt;li&gt;右下に「Folder containes a Dev Container configuration file&amp;hellip;」というポップアップが出たら「Reopen in Container」を選択します&lt;/li&gt;
+&lt;li&gt;開発用のコンテナが起動するまで待ちます（初回は時間がかかります）&lt;/li&gt;
+&lt;li&gt;上部メニュー＞ターミナル＞新しいターミナルを選択します(&lt;code&gt;ctrl + shift + @&lt;/code&gt; でも可)&lt;/li&gt;
+&lt;li&gt;開いたターミナルで &lt;code&gt;hugo server -w&lt;/code&gt; のコマンドを実行します&lt;/li&gt;
+&lt;li&gt;ブラウザで「&lt;a href=&#34;http://localhost:1313/hugo-sample/&#34;&gt;http://localhost:1313/hugo-sample/&lt;/a&gt;」を開きます&lt;/li&gt;
+&lt;li&gt;md ファイルの１つを更新して保存したときに、すぐにブラウザ側に反映されていることを確認します&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;markdwon-でドキュメントを書いてみよう&#34;&gt;Markdwon でドキュメントを書いてみよう&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://qiita.com/tbpgr/items/989c6badefff69377da7&#34;&gt;Markdown記法 サンプル集&lt;/a&gt; を参考にさせてもらいながら、 Markdown の記述方法を学びましょう&lt;/p&gt;
+&lt;p&gt;＋α で Hugo の記事を作成する際に必要になる「メタデータ」の記載方法は以下のようになります。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &amp;#34;タイトル名を書きます&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2022-09-08
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ドキュメントの冒頭に&amp;#34;---&amp;#34;で囲んだ範囲に、yaml形式(ざっくりいうとパラメータと値を : で区切って表現する形式)でメタ情報を記載します！
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;自由練習１好きに-markdown-を書いてweb-サイトに記事を追加してみましょう&#34;&gt;自由練習１：好きに Markdown を書いて、Web サイトに記事を追加してみましょう&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;拡張子.mdでファイルを新規に作成します。&lt;/li&gt;
+&lt;li&gt;冒頭に title と date のメタデータを書いて保存します。&lt;/li&gt;
+&lt;li&gt;ブラウザで「&lt;a href=&#34;http://localhost:1313/hugo-sample/&#34;&gt;http://localhost:1313/hugo-sample/&lt;/a&gt;」を開いて記事が追加されていることを確認します&lt;/li&gt;
+&lt;li&gt;あとは自由に Markdown で記事を書いてみてください&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;githubaction-で作業を自動化してみよう&#34;&gt;GitHubAction で作業を自動化してみよう&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://qiita.com/Teach/items/d2c4d7bec98228df1807&#34;&gt;Qiita GitHub ActionsでHello World&lt;/a&gt;を参考にさせてもらいながら、GitHub Actionsを動かしてみましょう。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参考：
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/ja/actions/learn-github-actions/understanding-github-actions&#34;&gt;GitHub Actionsについて学ぶ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/ja/actions/using-workflows/workflow-syntax-for-github-actions&#34;&gt;GitHub Actionsのワークフロー構文&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/marketplace?type=actions&#34;&gt;GitHub Marketplace&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;自由練習２任意のブランチにpush時にソースコードを取得checkoutするactionsを呼び好きなlinuxコマンドを実行させてみよう&#34;&gt;自由練習２：任意のブランチにPush時にソースコードを取得(checkout)するActionsを呼び、好きなLinuxコマンドを実行させてみよう&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;helloworld.yml&lt;/code&gt;の&lt;code&gt;on&lt;/code&gt;以下を変更します&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;on&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;- &lt;span style=&#34;color:#000&#34;&gt;workflow_dispatch&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;- &lt;span style=&#34;color:#000&#34;&gt;&amp;lt;ブランチPushイベント&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;参考：&lt;a href=&#34;https://docs.github.com/ja/actions/using-workflows/events-that-trigger-workflows&#34;&gt;ワークフローをトリガーするイベント&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;lsquo;steps&amp;rsquo;以下を自由に変更します&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;steps&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;run&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;echo &amp;#34;Hello World!&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;uses&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&amp;lt;アクション&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;with&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&amp;lt;呼び出すアクションに応じて指定する&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;run&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;&amp;lt;好きなlinuxコマンド&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;hugo-の設定を変更してweb-サイトコンテンツをカスタマイズしてみよう&#34;&gt;Hugo の設定を変更して、Web サイトコンテンツをカスタマイズしてみよう&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo の設定ファイルを変更してみよう（&lt;a href=&#34;https://www.docsy.dev/docs/get-started/basic-configuration/&#34;&gt;参考&lt;/a&gt; ）&lt;/li&gt;
+&lt;li&gt;layouts にファイルを作成して theme を上書きしてみよう（&lt;a href=&#34;https://ja.takp.me/posts/how-to-customize-the-hugo-themes/&#34;&gt;参考&lt;/a&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: CICD</title>
+      <link>https://kazuo278.github.io/intern-example/docs/cicd/</link>
+      <pubDate>Fri, 02 Sep 2022 05:42:11 +0000</pubDate>
+      
+      <guid>https://kazuo278.github.io/intern-example/docs/cicd/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;cicd&#34;&gt;CICD&lt;/h1&gt;
+&lt;h2 id=&#34;実現したこと&#34;&gt;実現したこと&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;mainブランチPush時に以下を実行
+&lt;ul&gt;
+&lt;li&gt;checkout&lt;/li&gt;
+&lt;li&gt;hugoドキュメントのビルド&lt;/li&gt;
+&lt;li&gt;GitHub Pagesに公開&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ハマりそうなポイント&#34;&gt;ハマりそうなポイント&lt;/h2&gt;
+&lt;h3 id=&#34;checkout&#34;&gt;checkout&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;submodulesオプションで&lt;code&gt;recursive&lt;/code&gt;指定が必要
+&lt;ul&gt;
+&lt;li&gt;理由
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;true&lt;/code&gt;では、１階層のサブモジュールしかひっぱってこないっぽい。&lt;/li&gt;
+&lt;li&gt;利用するテーマがさらに別のサブモジュールを参照している場合は&lt;code&gt;recursive&lt;/code&gt;が指定必要。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;想定される事象
+&lt;ul&gt;
+&lt;li&gt;github actionsで、テーマが参照するリソースが存在しない旨のエラーがでる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;hugoドキュメントのビルド&#34;&gt;Hugoドキュメントのビルド&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hugoコマンドのオプションで&lt;code&gt;-b https://&amp;lt;ユーザ名&amp;gt;.github.io/&amp;lt;リポジトリ名&amp;gt;&lt;/code&gt;指定が必要&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前提
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hugo server&lt;/code&gt;ではmdがリアルタイムでレンダリングされる&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo&lt;/code&gt;のみで実行すると静的サイトが&lt;code&gt;public&lt;/code&gt;ディレクトリ配下に生成される。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;理由
+&lt;ul&gt;
+&lt;li&gt;ローカルでのbaseURLはconfig.tomlで&lt;code&gt;\&lt;/code&gt;が指定されている。&lt;/li&gt;
+&lt;li&gt;しかし、GitHub Pagesに公開するとURLが&lt;code&gt;https://&amp;lt;ユーザ名&amp;gt;.github.io/&amp;lt;リポジトリ名&amp;gt;&lt;/code&gt;となるため、baseURLを明示的に合わせる必要がある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;想定される事象
+&lt;ul&gt;
+&lt;li&gt;GitHub Pagesでページ遷移できない。（404）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;imageオプションでは、ext-xxxという名前のイメージを使う&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;理由
+&lt;ul&gt;
+&lt;li&gt;テーマでSCSS、SASSを利用している場合、ビルドができない。&lt;/li&gt;
+&lt;li&gt;extendedバージョンを利用する必要がある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;想定される事象
+&lt;ul&gt;
+&lt;li&gt;ビルドに失敗&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;備考
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Dev Containerと同様のイメージが好ましい。(環境に差異が出ない)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;image&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ext-ubuntu&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0.101.0&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;config.tomlに&lt;code&gt;canonifyurls = true&lt;/code&gt;を追加する&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;理由
+&lt;ul&gt;
+&lt;li&gt;これにより、画像の参照先やページ遷移先が絶対パス形式になる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;想定される事象
+&lt;ul&gt;
+&lt;li&gt;GitHub Pagesから画像参照できない（404）
+&lt;ul&gt;
+&lt;li&gt;詳細は未確認だが、Shortcode 方式で画像参照、かつ、basuURLを指定すると、html描画後の画像のパスにbaseURLが反映されていないことがあった
+&lt;ul&gt;
+&lt;li&gt;前提条件
+&lt;ul&gt;
+&lt;li&gt;baseURL=https://&amp;lt;ユーザ名&amp;gt;.github.io/&amp;lt;リポジトリ名&amp;gt;/&lt;/li&gt;
+&lt;li&gt;canonifyurls = false(未定義)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;期待する値
+&lt;ul&gt;
+&lt;li&gt;https://&amp;lt;ユーザ名&amp;gt;.github.io/&amp;lt;リポジトリ名&amp;gt;/images/xxxx.png&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;実際の値
+&lt;ul&gt;
+&lt;li&gt;https://&amp;lt;ユーザ名&amp;gt;.github.io/images/xxxx.png&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;備考
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ローカルで動作確認するときもGitHub Pagesに公開するときと合わせて、以下のコマンドで起動すると良さそう。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hudo -b http://localhost:1313/&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;リポジトリ名&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;/ server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Google Forms</title>
+      <link>https://kazuo278.github.io/intern-example/docs/google-forms/</link>
+      <pubDate>Fri, 02 Sep 2022 05:42:11 +0000</pubDate>
+      
+      <guid>https://kazuo278.github.io/intern-example/docs/google-forms/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;google-forms&#34;&gt;Google Forms&lt;/h1&gt;
+&lt;p&gt;フィードバックようページとして用意。&lt;/p&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Googleアカウントでログイン後以下にアクセス&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/forms/u/0/?tgif=d&#34;&gt;https://docs.google.com/forms/u/0/?tgif=d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;フォームを適当に作成&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「送信」→「&amp;lt; &amp;gt;」とたどり埋め込みリンクを取得する&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Google Analytics</title>
+      <link>https://kazuo278.github.io/intern-example/docs/google-analytics/</link>
+      <pubDate>Fri, 02 Sep 2022 05:42:11 +0000</pubDate>
+      
+      <guid>https://kazuo278.github.io/intern-example/docs/google-analytics/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h1&gt;
+&lt;p&gt;PV数取得で利用検討。&lt;/p&gt;
+&lt;h2 id=&#34;調査結果&#34;&gt;調査結果&lt;/h2&gt;
+&lt;p&gt;以下の理由から利用を断念。&lt;br&gt;
+Google Analyticsがビジネス利用前提で作られており、登録時にビジネス情報を入れる必要があったが、入力すべき相応しい情報がなかったため。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
