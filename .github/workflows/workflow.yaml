@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  HUGO_BASEURL: https://kazuo278.github.io/intern-example/
+  HUGO_BASEURL: https://sakurai0826.github.io/intern-example/
 
 jobs:
   build-and-deploy:
